@@ -215,7 +215,7 @@ function moveToken(player) {
     const colors = ["orange", "red", 'yellow', "blue", "green", "purple", "brown", "black"];
     for(let i=0; i<pieceArr.length; i++) {
         let left = -3900;
-        let top = 50;
+        let top = 0; 
         if(pieceArr[i].src === ("file:///C:/Monopoly/" + monopolyPieces[playerDict[player]])) {
             alert("You are going to: " + board[playerStats[player]["currPosition"]]);
             if(playerStats[player]["currPosition"] > 10 && playerStats[player]["currPosition"] < 20) {
